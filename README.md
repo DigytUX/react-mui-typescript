@@ -1,6 +1,6 @@
 # React without the crap
-This project was created to help developers get their idea from brain to code quicker without dealing boilerplate code which KILLs productivity
-
+This project was created to help developers get their idea from brain to code quicker without dealing boilerplate code which KILLS productivity!
+!!
 ## Available Scripts
 
 In the project directory, you can run:
