@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import {Container, Paper,Typography} from '@mui/material';
 
 function App() {
+  const styles = {
+    Container: {
+      height:'100vh',
+      display:'flex',
+      alignItems:'center',
+      justifyContent:'center',
+      textAlign:'center'
+    },
+    Title:{
+      fontWeight:700
+    },
+    FlexBox:{
+      display:'flex',
+      flexDirection:'column',
+      gap:2,
+      padding:5
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container sx={styles.Container}>
+      <Paper sx={styles.FlexBox} elevation={0}>
+        <Typography sx={styles.Title} variant="h3" component="h1">React without the crap!</Typography>
+        <Typography variant="body1" component="p">Get right to building your SaaS product with the best UI library. No more bullshit boilerplate code!</Typography>
+        <code><a target="_blank" href="https://digyt.co">Made with love by Digyt</a></code>
+      </Paper>
+    </Container>
   );
 }
 
