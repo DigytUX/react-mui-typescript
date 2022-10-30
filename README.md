@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React without the crap
+This project was created to help developers get their idea from brain to code quicker without dealing boilerplate code which KILLs productivity
 
 ## Available Scripts
 
