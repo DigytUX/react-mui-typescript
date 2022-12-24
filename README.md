@@ -1,8 +1,8 @@
 ![Group 60](https://user-images.githubusercontent.com/44784345/209415574-f2543b13-db38-429d-9623-0da082d7b490.png)
 
-# React without the crap
-This project was created to help developers get their idea from brain to code quicker without dealing boilerplate code which KILLS productivity!
-!!
+# React + MUI + Typescript
+Build your react frontend with MUI and typescript preconfigured.
+
 ## Available Scripts
 
 In the project directory, you can run:
