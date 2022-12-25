@@ -1,7 +1,7 @@
 ![Group 60](https://user-images.githubusercontent.com/44784345/209415574-f2543b13-db38-429d-9623-0da082d7b490.png)
 
 # React + MUI + Typescript
-Build your react frontend with MUI and typescript preconfigured.
+Build your react frontend with MUI and typescript preconfigured (frontend only)
 
 ## Available Scripts
 
